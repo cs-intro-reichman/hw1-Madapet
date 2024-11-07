@@ -10,11 +10,11 @@ public class Bill3 {
 	    String name1 = args[0]; // Gets from the user the first name 
 	    String name2 = args[1]; // Gets from the user the secound name 
 	    String name3 = args[2]; // Gets from the user the third name 
-		int bill = Integer.parseInt(args[3]); // Get the bill 
-		bill = Math.divideExact(bill, 3); // Divide the bill to three 
-		System.err.println(name1 +" , "+ name2 +" and " + name3 + " needs to pay " + bill +" each" ); // Print
+		double bill = Double.parseDouble(args[3]); // Get the bill 
+		bill = bill / 3.0; // Divide the bill to three 
+		System.err.println("Dear " +name1 +", "+ name2 +", and " + name3 + 
+		": pay " + Math.ceil(bill) +" Shekels each." ); // Print
 		
 
-	    // Replace this comment with the rest of your code   
 	}
 }
