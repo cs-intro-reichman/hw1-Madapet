@@ -12,8 +12,7 @@ public class Bill3 {
 	    String name3 = args[2]; // Gets from the user the third name 
 		double bill = Double.parseDouble(args[3]); // Get the bill 
 		bill = bill / 3.0; // Divide the bill to three 
-		System.err.print("Dear " +name3 +", "+ name2 +", and " + name1 + 
-		": pay " + Math.ceil(bill) +" Shekels each" ); // Print
+		System.err.println("Dear " +name3 +", "+ name2 +", and " + name1 + ": pay " + Math.ceil(bill) +" Shekels each" ); // Print
 		
 
 	}
