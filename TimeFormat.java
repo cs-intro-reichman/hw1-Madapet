@@ -64,15 +64,16 @@ public class TimeFormat {
 		// hours 
 		if (hours > 11){
 			am_pm = "PM";
-			if (hours == 12){System.err.print(hours);}else{
+			System.err.println((hours-12));
+			if (hours == 12){System.err.print("asd"+hours);}else{
 				if (hours == 24){System.err.print("0");}else{
-				if (hours - 12 > 10){System.out.print((hours-12));}else {System.err.print((hours-12));}}
+				if (hours - 12 > 10){System.out.print("dfg"+(hours-12));}else {System.err.print("ghj"+(hours-12));}}
 			}
 		}
 		else{
 			am_pm ="AM";
 			if (hours < 10 ){
-				System.out.print(+hours);
+				System.out.print(hours);
 			}else {System.err.print(hours);}
 
 		}
