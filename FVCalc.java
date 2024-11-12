@@ -11,9 +11,7 @@ public class FVCalc {
 			time --;
 			futureValue += futureValue * rate;
 		}
-		System.err.print("After "+(int)timeFrame+
-		" years, a $"+ (int)saving+ " saved at "+
-		 interestRate+"%25 will yield $"+(int)futureValue);
+		System.err.print("After "+(int)timeFrame+" years, a $"+ (int)saving+ " saved at "+ interestRate+"%25 will yield $"+(int)futureValue);
 		// Replace this comment with your code
 	}
 }
