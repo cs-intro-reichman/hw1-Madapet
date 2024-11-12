@@ -1,7 +1,6 @@
 // Splits a restaurant bill evenly among three diners.
 public class Bill3 {
 	/**
-	 * @param args
 	 */
 	public static void main(String[] args) {
 		
