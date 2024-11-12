@@ -1,6 +1,5 @@
 // Computes the future value of a saving investment.
 
-import java.util.stream.Gatherer.Integrator;
 
 public class FVCalc {
 	public static void main(String[] args){
