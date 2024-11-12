@@ -10,10 +10,9 @@ public class Bill3 {
 	    String name1 = args[0]; // Gets from the user the first name 
 	    String name2 = args[1]; // Gets from the user the secound name 
 	    String name3 = args[2]; // Gets from the user the third name 
-		double bill = Double.parseDouble(args[3]); // Get the bill 
-		bill = bill / 3.0; // Divide the bill to three 
-		bill = Math.ceil(bill);
-		System.err.println("Dear " +name3 +", "+ name2 +", and " + name1 +": pay " + bill +" Shekels each" ); // Print
+		int bill = Integer.parseInt(args[3]); // Get the bill 
+		bill = Math.ceil((double)bill / 3.0);
+		System.err.println("Dear " +name3 +", "+ name2 +", and " + name1 +": pay " + (double)bill +" Shekels each" ); // Print
 		
 		
 
