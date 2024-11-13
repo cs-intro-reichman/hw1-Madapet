@@ -3,9 +3,9 @@
 
 public class FVCalc {
 	public static void main(String[] args){
-		int saving = Integer.parseInt(args[0]);
-		int interestRate = Integer.parseInt(args[1]);
-		int timeFrame = Integer.parseInt(args[2]);
+		double saving = Double.parseDouble(args[0]);
+		double interestRate = Double.parseDouble(args[1]);
+		double timeFrame = Double.parseDouble(args[2]);
 		double rate = interestRate / 100;
 		double futureValue = saving;
 		double time = timeFrame;
