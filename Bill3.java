@@ -1,7 +1,5 @@
 // Splits a restaurant bill evenly among three diners.
-public class Bill3 {
-	
-	 
+public class Bill3 { 
 	public static void main(String[] args) {
 		
 		// To get you started, here is the first line in the program:
@@ -12,7 +10,7 @@ public class Bill3 {
 		bill = bill /3;
 		bill = Math.ceil(bill);
 	
-		System.err.println("Dear " +name3 +", "+ name2 +", and " + 
+		System.out.println("Dear " +name3 +", "+ name2 +", and " + 
 		name1 +": pay " + bill +" Shekels each" ); 
 
 	}
